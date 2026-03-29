@@ -1,0 +1,31 @@
+# Design notes (internal only)
+DESIGN.md
+
+# Generated index — rebuilt via `python scripts/ingest.py`
+storage/
+
+# Virtual environment
+venv/
+
+# Dataset — downloaded via `python scripts/download_data.py`
+data/
+
+# Claude Code local settings (personal permissions/preferences)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+/tmp/
